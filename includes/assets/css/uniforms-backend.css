@@ -1,0 +1,116 @@
+#uniforms-shortcode {
+    padding: 25px 0;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#uniforms-shortcode input {
+    background-color: #1e8cbe;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+}
+
+#uniforms-shortcode input::selection {
+    background: #000;
+}
+
+#normal-sortables,
+.form-actions.btn-group {
+    display: none !important;
+}
+
+ul.frmb.ui-sortable {}
+
+.form-wrap.form-builder .frmb li {
+    background-color: #f9f9f9 !important;
+}
+
+.form-wrap.form-builder .frmb > li:hover {
+    border: 1px dashed;
+}
+
+.form-wrap.form-builder .frmb li .fld-label {
+    background-color: #fff;
+}
+
+/**
+ * UNIFORMS TABS
+ *************************************/
+#uniforms-editor-tabs > ul {
+	border-bottom: 1px solid #aaa;
+	padding: 9px 15px 0 10px;
+	margin: 0;
+}
+
+#uniforms-editor-tabs > ul > li {
+	display: inline-block;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
+	padding: 0;
+	margin: 0 4px -1px;
+	background-color: #e4e4e4;
+}
+
+#uniforms-editor-tabs > ul > li:hover {
+	background-color: #fff;
+}
+
+#uniforms-editor-tabs > ul > li.ui-tabs-active,
+#uniforms-editor-tabs > ul > li.ui-tabs-active:hover {
+	border-top: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #f5f5f5;
+	background-color: #f5f5f5;
+}
+
+#uniforms-editor-tabs > ul > li > a {
+	padding: 6px 10px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #333;
+	text-decoration: none;
+}
+
+#uniforms-editor-tabs > ul > li.ui-tabs-active > a {
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#uniforms-editor-tabs > ul > li > a:hover {
+	color: #000;
+}
+
+#uniforms-editor-tabs > ul > li > a > span.dashicons {
+	font-style: normal;
+	padding: 6px 0 4px 4px;
+	color: #82878c;
+}
+
+#uniforms-editor-tabs .uniforms-editor-panel {
+    background-color: #f5f5f5;
+    border: 1px solid #aaa;
+    border-top: none;
+    padding: 16px;
+}
+
+/**
+ * UNIFORMS DRAG & DROP EDITOR PANEL
+ *************************************/
+#uniforms-editor li.header-field,
+#uniforms-editor li.form-field {
+    border: 1px solid #aaa;
+}
+
+/**
+ * UNIFORMS MAIL PANEL
+ *************************************/
+#uniforms-editor-tabs #mail-panel h2 {
+    font-size: 18px;
+}

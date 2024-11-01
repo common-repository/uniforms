@@ -1,0 +1,196 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: UniForms\n"
+"POT-Creation-Date: 2018-09-12 00:04+0200\n"
+"PO-Revision-Date: 2018-06-09 19:22+0200\n"
+"Last-Translator: Theme Vision <support@theme-vision.com>\n"
+"Language-Team: Theme Vision <support@theme-vision.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: uniforms.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/class-uniforms-meta-box.php:66
+#: includes/admin/class-uniforms-post-type.php:34
+#: includes/admin/class-uniforms-post-type.php:35
+#: includes/admin/class-uniforms-post-type.php:61
+msgid "UniForms"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:121
+msgid ""
+"Copy this shortcode and paste it into your post, page or text widget "
+"content:"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:128
+msgid "Form"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:129
+#: includes/admin/class-uniforms-meta-box.php:138
+msgid "Mail"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:140
+msgid "You can edit the mail template here."
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:141
+msgid "In the following fields, you can use these mail-tags:"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:152
+msgid "To"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:160
+msgid "From"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:168
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:176
+msgid "Additional Headers"
+msgstr ""
+
+#: includes/admin/class-uniforms-meta-box.php:186
+msgid "Message Body"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:32
+msgctxt "Post Type General Name"
+msgid "UniForms"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:33
+msgctxt "Post Type Singular Name"
+msgid "UniForms"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:36
+msgid "UniForms Archives"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:37
+msgid "UniForms Attributes"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:38
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:39
+msgid "All Items"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:40
+#: includes/admin/class-uniforms-post-type.php:41
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:42
+msgid "New Item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:43
+msgid "Edit Item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:44
+msgid "Update Item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:45
+msgid "View Item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:46
+msgid "View Items"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:47
+msgid "Search Item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:48
+msgid "Not found"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:49
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:50
+msgid "Featured Image"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:51
+msgid "Set featured image"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:52
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:53
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:54
+msgid "Insert into item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:55
+msgid "Uploaded to this item"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:56
+msgid "Items list"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:57
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:58
+msgid "Filter items list"
+msgstr ""
+
+#: includes/admin/class-uniforms-post-type.php:62
+msgid "UniForms Builder"
+msgstr ""
+
+#: includes/class-uniforms-shortcode.php:101
+msgid "Your email was successfuly sent."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://theme-vision.com/plugins/uniforms/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extends WordPress with light weight drag & drop contact form builder."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Theme Vision"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://theme-vision.com"
+msgstr ""

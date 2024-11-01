@@ -1,0 +1,71 @@
+/* Global */
+.uniforms-row {
+    margin-bottom: 20px;
+}
+
+.uniforms-row:last-child {
+    margin-bottom: 0;
+}
+
+.uniforms-inline {
+   display: inline-block;
+    margin-right: 20px;
+}
+
+.uniforms-inline:last-child {
+    margin-right: 0;
+}
+
+.uniforms-date-wrapper label,
+.uniforms-checbox-group label,
+.uniforms-file-wrapper label,
+.uniforms-number-wrapper label,
+.uniforms-radio-group label {
+    margin-right: 5px;
+}
+
+.uniforms-button-wrapper button {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    margin-top: 8px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+    padding: 0 22px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: all .4s;
+    border: 1px solid #606975;
+    border-radius: 22px;
+    background-color: transparent;
+    background-image: none;
+    color: #606975;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .07em;
+    line-height: 42px;
+    white-space: nowrap;
+    cursor: pointer;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uniforms-button-wrapper button:hover {
+    background: #606975;
+    color: #fff;
+}
+
+/* Radio Group */
+.uniforms-checkbox-group-wrapper > label,
+.uniforms-radio-group-wrapper > label {
+    display: block;
+}
